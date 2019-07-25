@@ -1,0 +1,1 @@
+A basic task manager built using Python with Flask, MongoDB and the Materialize framework.
