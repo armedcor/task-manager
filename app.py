@@ -18,6 +18,5 @@ def get_tasks():
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
-            port=int(6000),
+            port=(os.environ.get('PORT')),
             debug=True)
-
